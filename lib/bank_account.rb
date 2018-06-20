@@ -17,7 +17,7 @@ class BankAccount
     puts "Your balance is ${name.balance}."
   end
 
-  def valid?(status)
+  def valid?
     if @balance > 0
       @status = 'open'
     end
