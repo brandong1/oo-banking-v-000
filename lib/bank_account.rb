@@ -9,4 +9,12 @@ class BankAccount
     @status = "open" # always initializes with a status of 'open'
   end
 
+  def deposit
+
+  end
+
+  def display_balance(balance)
+    @balance
+  end
+
 end
