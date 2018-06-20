@@ -18,7 +18,7 @@ class BankAccount
   end
 
   def valid?
-    @broke.balance = 0
+    balance = 0
     @closed.status = "closed"
   end
 
